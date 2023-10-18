@@ -1,14 +1,13 @@
-/* web-dev.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-image: url('web-photo.jpg');
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 20px;
 }
@@ -30,3 +29,25 @@ h1 {
     padding: 20px;
     font-size: 16px;
 }
+        .course-details {
+            background-color: #f2f2f2;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .course-details h3 {
+            font-size: 18px;
+            color: #333;
+            margin-top: 0;
+        }
+
+        .course-details ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .course-details li {
+            margin: 5px 0;
+            color: #555;
+        }

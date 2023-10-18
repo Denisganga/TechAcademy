@@ -3,17 +3,67 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-          
-
             background-image: url('ai-photo.jpg');
         }
 
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: white;
+            color: black;
             text-align: center;
             padding: 20px;
         }
+
+
+
+
+        @keyframes moveLeftToRight {
+               0%{
+                 transform: translateX(100%);
+                  }
+               100% {
+                     transform: translateX(-100%)
+                     }
+                   }
+          
+         h4{
+           animation:moveLeftToRight 20s linear infinite;
+           white-space:nowrap;
+           overflow:hidden;
+           position:relative;
+            width:auto;
+}
+
+
+
+
+        .enroll-button {
+            display: block;
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            
+        }
+
+        /* Add this CSS to style the Duration section */
+        .duration {
+            font-style: italic;
+            color: #777;
+        }
+
+             footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+         img{
+
+              width:1125px;
+              }
 
         h1 {
             font-size: 36px;
@@ -23,6 +73,7 @@
                  list-style:none;
                  text-align:right;
                  background-color:white;
+                 
                  }
          .options li{
                  display:inline;
@@ -34,7 +85,6 @@
             margin: 0;
             text-align: center;
             height: 50px;
-
             background-color:white;
 
         }
