@@ -10,7 +10,7 @@
             background-color: white;
             color: black;
             text-align: center;
-            padding: 20px;
+            padding: 5px 0;
         }
 
 
@@ -30,7 +30,9 @@
            white-space:nowrap;
            overflow:hidden;
            position:relative;
-            width:auto;
+           width:auto;
+           font-size: 18px;
+           font-style: italic
 }
 
 
@@ -98,7 +100,12 @@
             text-decoration: none;
             color: black;
             font-weight: bold;
+            transition:color 0.3s
         }
+
+        nav a:hover{
+              color: blue;
+                     }
 
         .container {
             max-width: 1200px;
