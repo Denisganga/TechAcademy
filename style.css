@@ -32,7 +32,8 @@
            position:relative;
            width:auto;
            font-size: 18px;
-           font-style: italic
+           font-style: italic;
+           color: blue;
 }
 
 
