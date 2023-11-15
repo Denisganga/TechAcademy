@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Academy Subscription</title>
+    <link rel="stylesheet" href="subscription.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Subscription Options</h1>
+    </header>
+
+<div class="subscription-plans">
+    <div class="plan">
+        <h2>Basic Plan</h2>
+        <p>Access to basic courses</p>
+        <span>ksh. 999/month</span>
+        <button onclick="selectPlan('Basic Plan')">Select Plan</button>
+    </div>
+
+    <div class="plan">
+        <h2>Pro Plan</h2>
+        <p>Access to pro courses and projects</p>
+        <span>ksh. 4999/month</span>
+        <button onclick="selectPlan('pro Plan')">Select Plan</button>
+    </div>
+
+    <div class="plan">
+        <h2>Ultimate Plan</h2>
+        <p>Unlimited access to all courses and premium features</p>
+        <span>ksh. 9999/month</span>
+        <button onclick="selectPlan('ultimate Plan')">Select Plan</button>
+    </div>
+</div>
+<div id="payment-options" style="display: none;">
+    <h2>Select Payment Method</h2>
+    <button class="payment-button" onclick="selectPayment('M-Pesa')">M-Pesa</button>
+    <button class="payment-button" onclick="selectPayment('PayPal')">PayPal</button>
+</div>
+
+<script src="script.js"></script>
+<footer>
+    &copy; 2023 Denis Computer Academy. All rights reserved.
+</footer>
+</body>
+</html>

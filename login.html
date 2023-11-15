@@ -1,23 +1,24 @@
-<html> 
+<!DOCTYPE html>
+<html>
 <head>   
-    <title>login</title>
- <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
 </head>  
 <body>  
- <div class=container>
-  <div class="thehead">
-  <h3>LOGIN PAGE</h3> 
-  </div>
-    <label for="fname">First Name</label>   
-    <input type="text" placeholder="Registered Name" name='fname' required> <br>
+    <div class="container">
+        <div class="thehead">
+            <h3>LOGIN PAGE</h3> 
+        </div>
+        <form action="index.html" method="get">
+            <label for="fname">First Name</label>   
+            <input type="text" placeholder="Registered Name" name='fname' required> <br>
 
-    <label for ="fname">Password</label>
-    <input type="password" placeholder="input the correct password" name='pwd' required>  <br>
+            <label for="fname">Password</label>
+            <input type="password" placeholder="Input the correct password" name='pwd' required>  <br>
 
-    
-    <input type="submit" value="Login">
-    <p>forgot password? <a href="#ink">reset password</a></p>
-  </form>
- </div>
+            <input type="submit" value="Login"> 
+        </form>
+        <p>Forgot password? <a href="#ink">Reset password</a></p>
+    </div>
 </body>  
-</html> 
+</html>

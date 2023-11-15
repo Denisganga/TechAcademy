@@ -1,0 +1,84 @@
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 36px;
+}
+
+.subscription-plans {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.plan {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 2000px;
+    text-align: center;
+}
+
+.plan h2 {
+    color: #333;
+}
+
+.plan p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.plan span {
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.plan button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.plan button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#payment-options {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.payment-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+    margin: 0.5em;
+}
+
+#payment-options button {
+    background-color: #3498db; /* Different color for payment buttons */
+}
